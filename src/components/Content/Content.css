@@ -1,0 +1,140 @@
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #354259;
+  border-radius: 10px;
+  margin-left: 10px;
+  height: 380px;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: 0px 3px #38938A;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.content button {
+  margin-left: 3px;
+  width: 30px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #F8F8F8;
+}
+
+.task-item__content {
+  flex-grow: 1;
+  font-weight: bolder;
+}
+
+.task-item__actions {
+  display: flex;
+  align-items: center;
+}
+
+.task-item__status {
+  margin-right: 10px;
+}
+
+.task-item__actions button:hover {
+  background-color: antiquewhite;
+  color: #354259;
+  transition: background-color 0.5s;
+}
+
+.btn-edit {
+  margin-left: 5px;
+  background-color: #a6c47a;
+  color: #F8F8F8;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  margin-left: 5px;
+  background-color: #FF5252;
+  color: #F8F8F8;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.box-optional {
+  background-color: #354259;
+  color: #F8F8F8;
+  border: 2px solid;
+  border-color: #449b6b;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.btn-save {
+  margin-left: 5px;
+  background-color: #449b6b;
+  color: #F8F8F8;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  margin-left: 5px;
+  background-color: #FF5252;
+  color: #F8F8F8;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.task-item__status--completed {
+  background-color: #449b6b;
+  color: #F8F8F8;
+  border: none;
+  border-radius: 10px;
+}
+
+.task-item__status--urgent {
+  background-color: #FF5252;
+  color: #F8F8F8;
+  border: none;
+  border-radius: 10px;
+}
+
+.task-item__status--later {
+  background-color: #FFC107;
+  color: #F8F8F8;
+  border: none;
+  border-radius: 10px;
+}
+
+.task-item__status--processing {
+  background-color: #9C27B0;
+  color: #F8F8F8;
+  border: none;
+  border-radius: 10px;
+}

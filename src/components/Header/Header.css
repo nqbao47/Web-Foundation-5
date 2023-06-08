@@ -1,0 +1,114 @@
+.header {
+  background-color: #354259;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: -9px;
+  box-shadow: 0px 3px #38938A;
+}
+
+.header__add-task {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.modal__categories {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.header__add-task-button {
+  background-color: #44A0A0;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 150px;
+  transition: background-color 0.4s;
+}
+
+.header__add-task-button:hover {
+  background-color: #0056b3;
+}
+
+.header__task-count {
+  color: #44A0A0;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.modal__add-task{
+  color: #fff;
+  font-weight: bolder;
+  font-size: 23px;
+  text-align: center;
+}
+
+.modal__content {
+  background-color: #354259;
+  padding: 50px;
+  border-radius: 20px;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid #fff;
+}
+
+.modal input {
+  display: block;
+  margin-bottom: 5px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.modal select {
+  display: block;
+  margin-bottom: 15px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.modal .modal__btn-submitTask,
+.modal .modal__btn-cancel {
+  background-color: #fff;
+  color: #44A0A0;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 2px solid #44A0A0;
+  margin-bottom: 5px;
+}
+
+.modal .modal__btn-submitTask:hover,
+.modal .modal__btn-cancel:hover {
+  background-color: #44A0A0;
+  color: #354259;
+}

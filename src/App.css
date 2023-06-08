@@ -1,38 +1,89 @@
-.App {
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app__heading {
+  color: #E9C597;
   text-align: center;
+  margin-bottom: 71px;
+  font-size: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* iPhone X */
+@media (min-width: 375px) and (max-width: 812px){
+  body {
+    font-size: 10px;
+  }
+  .task-count {
+    color: #44A0A0;
+    font-weight: bolder;
+    margin-bottom: -26px;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .header {
+    margin-left: 10px;
+    margin-right: 2px;
+  }
+  
+  .task-manager__container {
+    display: block;
+  }
+
+  .header__add-task-button {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .sidebar__category-list {
+    display: flex;
+  }
+
+  .task-item__content {
+    width: 80%;
+  }
+
+  .sidebar {
+    background-color: #354259;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    width: 258px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .sidebar__category-list li {
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 4px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Galaxy Note 9 */
+@media (min-width: 414px) and (max-width: 846px) {
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .sidebar {
+    background-color: #354259;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-left: 10px;
   }
 }
+
+
+
+
+
+
+
+
+
