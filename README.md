@@ -6,16 +6,16 @@ Task Manager là một trang web được xây dựng bằng React với mục �
 ## Cài đặt
 
 1. Clone repository này:
-    https://github.com/nqbao47/Web-Foundation-5.git
+    `https://github.com/nqbao47/Web-Foundation-5.git`
 
 2. Di chuyển vào thư mục dự án:
-    cd Web-Foundation-5
+    `cd Web-Foundation-5`
 
 3. Cài đặt các dependencies:
-    npm install
+    `npm install`
 
 4. Khởi chạy ứng dụng:
-    npm start
+    `npm start`
 ## Đóng góp
 
 Nếu bạn muốn đóng góp vào dự án, bạn có thể làm theo các bước sau:
