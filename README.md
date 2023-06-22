@@ -1,7 +1,4 @@
-# Tên Dự Án
-
-Tasks Manager
-
+# TASKS MANAGER
 ## Mô tả
 
 Task Manager là một trang web được xây dựng bằng React với mục đích quản lý các nhiệm vụ và công việc của bạn một cách hiệu quả. Dự án này giúp bạn tổ chức và theo dõi các công việc, tạo danh sách nhiệm vụ, quản lý thời gian và tiến độ công việc.
