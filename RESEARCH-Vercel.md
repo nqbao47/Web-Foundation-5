@@ -31,5 +31,3 @@ Vercel is a popular cloud platform for deploying static websites, Jamstack appli
 6. Browse website
 
     web-foundation-5.vercel.app
-
-
