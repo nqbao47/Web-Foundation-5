@@ -4,6 +4,8 @@
 
 Vercel's frontend cloud gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized Web.
 
+Vercel is a popular cloud platform for deploying static websites, Jamstack applications, and serverless functions. It provides a seamless deployment experience for React projects and offers features like easy scaling, automatic deployments, and built-in caching.
+
 ## Deployment
 
 1. Start Deployment
@@ -30,5 +32,4 @@ Vercel's frontend cloud gives developers the frameworks, workflows, and infrastr
 
     web-foundation-5.vercel.app
 
-## Research
 
